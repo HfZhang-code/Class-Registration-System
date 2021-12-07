@@ -44,7 +44,7 @@ public class ActionController implements ActionListener {
         // execute the command
         panel.doAction(cmd);
     }
-
+    //Switch the panel
     public void switchView(String viewName) {
         this.cardLayout.show(cards, viewName);
     }

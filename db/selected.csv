@@ -40,3 +40,7 @@
 {"stuId":"0001","courseName":"Python","teacher":"Sam","courseId":"c0003"}
 {"stuId":"0001","courseName":"C++","teacher":"Jack","courseId":"c0002"}
 {"stuId":"0001","courseName":"Big Data","teacher":"Cat","courseId":"c0004"}
+{"stuId":"0001","courseName":"Python","teacher":"Sam","courseId":"c0003"}
+{"stuId":"0001","courseName":"Big Data","teacher":"Cat","courseId":"c0004"}
+{"stuId":"0001","courseName":"Big Data","teacher":"Cat","courseId":"c0004"}
+{"stuId":"0001","courseName":"Big Data","teacher":"Cat","courseId":"c0004"}

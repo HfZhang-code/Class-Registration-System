@@ -1,3 +1,33 @@
+My github link is https://github.com/metcs/met-cs665-assignment-project-Nalaaaaa
+I try to design a register class system. Students can log into the system and register in the courses.
+I use MVC pattern, strategy pattern and Data Access Object pattern.
+
+   For the flexibility, I use strategy pattern between my view layer and controller layer.
+There is two panel in my view layer, each panel inherit from the class AbstractPanel
+Each panel has strategy to do the request which is doAction() method.
+And ActionController refers to the AbstractPanel for performing the strategy doAction(). 
+Method getActionCommand() get the command from panel and ActionController will know which panel should call its strategy algorithm.
+And I can add new strategy or new pattern easily by inherit from AbstractPanel class.
+
+And MVC pattern also bring benefits to me.
+We have the View layer, Controller layer.model layer and etc. We can read code clearly.
+People can come to this project easily.
+If I need new function in the login panel, I only need to create a new service and modify the controller.
+And also if I only need new panel, I can create a new one and call the existed controller.
+
+DAO pattern can make me easier to employ my system on different platform using the different database.
+When we need to achieve data from other database or storage mechanism,
+we only need to modify the dao layer to adapt to the new storage mechanism.
+#project implementation
+For this project I use maven to insert  dependency and add a jar file as 
+library in the lib file.
+
+
+
+
+
+
+
 # Project Template
 
 This is a Java Maven Project Template

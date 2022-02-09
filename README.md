@@ -1,5 +1,4 @@
-My github link is https://github.com/metcs/met-cs665-assignment-project-Nalaaaaa
-I try to design a register class system. Students can log into the system and register in the courses.
+I try to design a Class Registration System. Students can log into the system and register in the courses.
 I use MVC pattern, strategy pattern and Data Access Object pattern.
 
    For the flexibility, I use strategy pattern between my view layer and controller layer.
